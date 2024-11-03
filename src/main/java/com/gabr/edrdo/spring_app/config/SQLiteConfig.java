@@ -17,7 +17,7 @@ public class SQLiteConfig {
     public DataSource dataSource() {
         final DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.sqlite.JDBC");
-        dataSource.setUrl("jdbc:sqlite:petroshow.db");
+        dataSource.setUrl("jdbc:sqlite:cadastros.db");
         dataSource.setUsername("sa");
         dataSource.setPassword("sa");
         return dataSource;
